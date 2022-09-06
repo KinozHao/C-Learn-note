@@ -11,7 +11,7 @@ int main() {        //主函数
     int x = 10;
     int y = 20;
     int sum = sumFunc(x,y);
-    printf("sum=%d",sum);
-
+    printf("sum=%d\n",sum);
+    printf("%d",y);
     return 0;
 }
